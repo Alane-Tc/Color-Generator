@@ -1,0 +1,63 @@
+@mixin marginTop ($size) {
+    margin-top: $size;
+}
+
+@mixin marginBottom ($size) {
+    margin-bottom: $size;
+}
+
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+
+@media (max-width: 575.98px) { 
+    //body{background: red;}
+
+    #divMain{
+        width: 90%;
+    }
+
+    #title-Main{
+        @include fontSize(30px);
+    }
+
+    #span-Result{
+        @include fontSize(20px);
+    }
+
+    #caja-Color{
+        width: 210px;
+    }
+   
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   //body{background: green;}
+
+   #divMain{
+    width: 90%;
+    }
+    
+}
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+   //body{background: yellow;}
+
+   #divMain{
+        width: 90%;
+    }
+    
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   // body{background: blue;}
+       
+    #divMain{
+        width: 90%;
+    }
+ }
+
+/*@media (min-width: 1200px) { 
+    body{background: blueviolet;}
+
+ }*/
