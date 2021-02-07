@@ -1,3 +1,10 @@
+body {
+  background-color: #E5E5F7;
+  background-image: radial-gradient(#020202 1px, transparent 1px), radial-gradient(#020202 1px, #E5E5F7 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
 .margin10A {
   margin-top: 15px;
 }
