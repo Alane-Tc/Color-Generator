@@ -1,10 +1,1 @@
-window.addEventListener("load", function () {
-    let btn = document.querySelector("#btn-Generator");
-
-    let generatorColor = () => {
-        let inputColor = document.querySelector("#muestrario").value;
-        document.querySelector("#span-Result").innerHTML = `El código del color es: ${inputColor}`
-        document.querySelector("#caja-Color").style.background = inputColor;
-    }
-    btn.addEventListener("click", function () { generatorColor(); })
-});
+window.addEventListener("load",function(){let e=document.querySelector("#btn-Generator");e.addEventListener("click",function(){(()=>{let e=document.querySelector("#muestrario").value;document.querySelector("#span-Result").innerHTML=`El código del color es: ${e}`,document.querySelector("#caja-Color").style.background=e})()})});
